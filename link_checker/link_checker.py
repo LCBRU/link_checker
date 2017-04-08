@@ -4,16 +4,26 @@ import yaml
 import requests
 import logging
 
-RETURN_STATUS_WARNING = "{}: Bad status returned = {}"
+RETURN_STATUS_WARNING = "ERROR - {}: Bad status returned = {}"
+RETURN_STATUS_OK = "OK - {}: Status returned = {}"
+RETURN_STATUS_EXCEPTION = "EXCEPTION - {}: Exception = {}"
 
 
 def check_links(links):
     for link in links:
-        r = requests.get(link['url'])
+        try:
+            r = requests.get(link['url'], verify=link['verify'])
 
-        if r.status_code != 200:
-            logging.warning(
-                RETURN_STATUS_WARNING.format(link['url'], r.status_code))
+            if r.status_code != 200 and r.status_code != 403:
+                logging.warning(
+                    RETURN_STATUS_WARNING.format(link['url'], r.status_code))
+            else:
+                logging.info(
+                    RETURN_STATUS_OK.format(link['url'], r.status_code))
+
+        except Exception as e:
+            logging.error(
+                RETURN_STATUS_EXCEPTION.format(link['url'], e))
 
 
 def main():
