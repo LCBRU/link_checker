@@ -28,8 +28,8 @@
       url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap
       verify: False
     - name: REDCap External - Internal Address
-      url: https://uhlbriccsext01.xuhl-tr.nhs.uk/redcap
+      url: https://uhlbriccsext01.xuhl-tr.nhs.uk/redcap/norhere
       verify: False
     - name: GENVASC Portal
-      url: https://genvasc.uhl-tr.nhs.uk
+      url: https://genvasc.uhl-tr.nhs.uk/notthere
       verify: False

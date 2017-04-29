@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  checker:
+    restart: always
+    build: ./checker
+    env_file:
+      - ./app.env
