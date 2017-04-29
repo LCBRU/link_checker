@@ -34,5 +34,5 @@
       url: https://uhlbriccsext01.xuhl-tr.nhs.uk/redcap
       verify: False
     - name: GENVASC Portal
-      url: https://genvasc.uhl-tr.nhs.uk/notthere
+      url: https://genvasc.uhl-tr.nhs.uk
       verify: False
