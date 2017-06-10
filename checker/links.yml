@@ -16,7 +16,7 @@
       url: http://uhlbriccsapp03.xuhl-tr.nhs.uk/main
       verify: False
     - name: i2b2 live Admin
-      url: http://uhlbriccsapp03.xuhl-tr.nhs.uk/main 
+      url: http://uhlbriccsapp03.xuhl-tr.nhs.uk/admin 
       verify: False
     - name: REDCap Live UHL
       url: https://briccs.xuhl-tr.nhs.uk/redcap
