@@ -12,6 +12,9 @@
     - name: Civi Live
       url: http://lcbru.xuhl-tr.nhs.uk/
       verify: False
+    - name: Civi Live CiviCRM
+      url: http://lcbru.xuhl-tr.nhs.uk/civicrm/
+      verify: False
     - name: i2b2 Live
       url: http://uhlbriccsapp03.xuhl-tr.nhs.uk/main
       verify: False
