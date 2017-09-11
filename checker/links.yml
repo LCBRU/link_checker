@@ -31,7 +31,10 @@
       url: https://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap
       verify: False
     - name: REDCap External - External Address
-      url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap
+      url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap/
+      verify: False
+    - name: REDCap External - External Address - with redirect
+      url: https://uhlbriccsext.uhl-tr.nhs.uk/
       verify: False
     - name: GENVASC Portal
       url: https://genvasc.uhl-tr.nhs.uk
