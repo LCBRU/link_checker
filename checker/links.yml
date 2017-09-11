@@ -33,6 +33,9 @@
     - name: REDCap External - External Address
       url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap/
       verify: False
+    - name: REDCap External - External Address - with redirect to folder
+      url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap
+      verify: False
     - name: REDCap External - External Address - with redirect
       url: https://uhlbriccsext.uhl-tr.nhs.uk/
       verify: False
