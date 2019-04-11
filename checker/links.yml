@@ -7,8 +7,8 @@
       url: http://briccs.xuhl-tr.nhs.uk/appointments/
       verify: False
 
-    - name: BRICCS Label Printing
-      url: http://briccs.xuhl-tr.nhs.uk:8080/briccs-labels-webapp-1.05/
+    - name: Label Printing
+      url: http://briccs.xuhl-tr.nhs.uk/labels/
       verify: False
 
     - name: Civi Test
