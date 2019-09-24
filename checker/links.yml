@@ -60,5 +60,5 @@
       verify: False
 
     - name: GENVASC Portal
-      url: https://genvasc.uhl-tr.nhs.uk
+      url: https://genvasc.xuhl-tr.nhs.uk
       verify: False
