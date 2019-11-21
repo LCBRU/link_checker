@@ -1,11 +1,5 @@
 - name: System Homes
   links:
-    - name: MRBS
-      url: http://briccs.xuhl-tr.nhs.uk/appointments
-      verify: False
-    - name: MRBS - folder
-      url: http://briccs.xuhl-tr.nhs.uk/appointments/
-      verify: False
 
     - name: Label Printing
       url: http://briccs.xuhl-tr.nhs.uk/labels/
