@@ -56,3 +56,11 @@
     - name: GENVASC Portal
       url: https://genvasc.xuhl-tr.nhs.uk
       verify: False
+
+    - name: GENVASC REDCap
+      url: https://genvasc.uhl-tr.nhs.uk/redcap/
+      verify: False
+
+    - name: GENVASC Documentation
+      url: https://genvasc.uhl-tr.nhs.uk/documentation/
+      verify: False
