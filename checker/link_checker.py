@@ -5,6 +5,7 @@ import os
 import requests
 import logging
 import schedule
+from datetime import datetime, time as tm
 import time
 from logging.handlers import SMTPHandler
 
@@ -72,5 +73,6 @@ schedule.every(10).minutes.do(check_links)
 
 if __name__ == "__main__":
     while True:
-        schedule.run_pending()
-        time.sleep(1)
+        if tm(7,0) <= datetime.now().time() <= tm(19,0):
+            schedule.run_pending()
+            time.sleep(60)

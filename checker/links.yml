@@ -1,8 +1,8 @@
 - name: System Homes
   links:
 
-    - name: Label Printing
-      url: http://briccs.xuhl-tr.nhs.uk/labels/
+    - name: Identity Printing
+      url: http://briccs.xuhl-tr.nhs.uk/
       verify: False
 
     - name: Civi Test
@@ -12,20 +12,15 @@
     - name: Civi Live
       url: http://lcbru.xuhl-tr.nhs.uk/
       verify: False
+
     - name: Civi Live CiviCRM
       url: http://lcbru.xuhl-tr.nhs.uk/civicrm/
-      verify: False
-
-    - name: i2b2 Live
-      url: http://uhlbriccsapp03.xuhl-tr.nhs.uk/main
-      verify: False
-    - name: i2b2 live Admin
-      url: http://uhlbriccsapp03.xuhl-tr.nhs.uk/admin 
       verify: False
 
     - name: REDCap Live UHL
       url: https://briccs.xuhl-tr.nhs.uk/redcap
       verify: False
+
     - name: REDCap Live UHL
       url: https://briccs.xuhl-tr.nhs.uk/redcap/
       verify: False
@@ -33,6 +28,7 @@
     - name: REDCap Test UHL
       url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap
       verify: False
+
     - name: REDCap Test UHL
       url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap/
       verify: False
