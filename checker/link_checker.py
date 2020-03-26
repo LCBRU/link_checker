@@ -75,4 +75,5 @@ if __name__ == "__main__":
     while True:
         if tm(7,0) <= datetime.now().time() <= tm(19,0):
             schedule.run_pending()
-            time.sleep(60)
+
+        time.sleep(60)
