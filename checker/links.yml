@@ -21,30 +21,10 @@
       url: https://briccs.xuhl-tr.nhs.uk/redcap
       verify: False
 
-    - name: REDCap Live UHL
-      url: https://briccs.xuhl-tr.nhs.uk/redcap/
-      verify: False
+    # - name: REDCap Test UHL
+    #   url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap
+    #   verify: False
 
-    - name: REDCap Test UHL
-      url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap
-      verify: False
-
-    - name: REDCap Test UHL
-      url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap/
-      verify: False
-    - name: REDCap Test UHL SSL
-      url: https://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap
-      verify: False
-    - name: REDCap Test UHL SSL
-      url: https://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap/
-      verify: False
-
-    - name: REDCap External - External Address
-      url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap/
-      verify: False
-    - name: REDCap External - External Address - with redirect to folder
-      url: https://uhlbriccsext.uhl-tr.nhs.uk/redcap
-      verify: False
     - name: REDCap External - External Address - with redirect
       url: https://uhlbriccsext.uhl-tr.nhs.uk/
       verify: False
