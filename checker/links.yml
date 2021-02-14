@@ -21,9 +21,9 @@
       url: https://briccs.xuhl-tr.nhs.uk/redcap
       verify: False
 
-    # - name: REDCap Test UHL
-    #   url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap
-    #   verify: False
+    - name: REDCap Test UHL
+      url: http://uhlbriccsapp02.xuhl-tr.nhs.uk/redcap_test
+      verify: False
 
     - name: REDCap External - External Address - with redirect
       url: https://uhlbriccsext.uhl-tr.nhs.uk/
