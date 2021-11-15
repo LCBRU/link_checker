@@ -5,9 +5,9 @@
       url: http://briccs.xuhl-tr.nhs.uk/
       verify: False
 
-    - name: Civi Test
-      url: http://lcbru-test.xuhl-tr.nhs.uk
-      verify: False
+    # - name: Civi Test
+    #   url: http://lcbru-test.xuhl-tr.nhs.uk
+    #   verify: False
 
     - name: Civi Live
       url: http://lcbru.xuhl-tr.nhs.uk/
