@@ -5,10 +5,6 @@
       url: http://briccs.xuhl-tr.nhs.uk/
       verify: False
 
-    # - name: Civi Test
-    #   url: http://lcbru-test.xuhl-tr.nhs.uk
-    #   verify: False
-
     - name: Civi Live
       url: http://lcbru.xuhl-tr.nhs.uk/
       verify: False
@@ -30,7 +26,7 @@
       verify: False
 
     - name: GENVASC Portal
-      url: https://genvasc.xuhl-tr.nhs.uk
+      url: https://briccs.xuhl-tr.nhs.uk/genvasc_portal/
       verify: False
 
     - name: GENVASC REDCap
