@@ -25,6 +25,6 @@
       url: https://uhlbriccsext.uhl-tr.nhs.uk/
       verify: False
 
-    - name: GENVASC Portal
-      url: https://briccs.xuhl-tr.nhs.uk/genvasc_portal/
-      verify: False
+    # - name: GENVASC Portal
+    #   url: https://briccs.xuhl-tr.nhs.uk/genvasc_portal/
+    #   verify: False
