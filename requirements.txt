@@ -12,5 +12,5 @@ requests==2.32.3
     # via -r requirements.in
 schedule==1.2.2
     # via -r requirements.in
-urllib3==2.3.0
+urllib3==2.5.0
     # via requests
